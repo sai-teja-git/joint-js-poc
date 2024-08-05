@@ -1,0 +1,5 @@
+.page-data {
+    height: calc(100vh - var(--header-height));
+    overflow-y: auto;
+    padding: var(--page-padding);
+}

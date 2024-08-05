@@ -1,0 +1,20 @@
+<nav class="page-header">
+    <div class="title">
+        Joint Js
+    </div>
+    <div class="options">
+        <div class="dropdown">
+            <a class="btn btn-outline-secondary btn-sm dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                {{activePathData.name}}
+            </a>
+
+            <ul class="dropdown-menu">
+                @for (menu of menus; track $index) {
+                <li><a class="dropdown-item" type="button" [ngClass]="{'active':menu.path===activePathData.path}"
+                        (click)="navigate(menu)">{{menu.name}}</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+</nav>

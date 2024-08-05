@@ -1,0 +1,18 @@
+export const scadaConst = {
+    POWER_FLAG: "POWER",
+    LIGHT_FLAG: "LIGHT",
+    FLOW_FLAG: "FLOW",
+    OPEN_FLAG: "OPEN",
+
+    // Constants
+    LIQUID_COLOR: "#0EAD69",
+    MAX_LIQUID_COLOR: "#ED2637",
+    MIN_LIQUID_COLOR: "#FFD23F",
+    START_LIQUID: 70,
+    PRESSURE_COLOR: "#1446A0",
+    MAX_PRESSURE_COLOR: "#ED2637",
+
+    STEP: 20,
+
+    LEVEL_FLAG: "LEVEl"
+}
